@@ -1,5 +1,4 @@
 /* @refresh reload */
-
 import './index.scss'
 
 import { render } from 'solid-js/web'

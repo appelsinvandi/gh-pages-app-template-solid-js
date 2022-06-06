@@ -5,6 +5,10 @@
     "jsxImportSource": "solid-js",
     "types": ["vite/client"],
     "plugins": [{ "name": "typescript-plugin-css-modules" }],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
   }
 }
