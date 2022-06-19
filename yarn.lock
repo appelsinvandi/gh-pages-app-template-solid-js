@@ -2525,12 +2525,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "prettier@npm:2.6.2"
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 
@@ -2823,13 +2823,13 @@ __metadata:
     "@tsconfig/vite-react": ^1.0.0
     "@types/node": ^16
     husky: ^8.0.1
-    prettier: ^2.6.2
+    prettier: ^2.7.1
     pretty-quick: ^3.1.3
     scss: ^0.2.4
-    solid-js: ^1.4.3
-    typescript: ^4.7.3
+    solid-js: ^1.4.4
+    typescript: ^4.7.4
     typescript-plugin-css-modules: ^3.4.0
-    vite: ^2.9.9
+    vite: ^2.9.12
     vite-plugin-solid: ^2.2.6
   languageName: unknown
   linkType: soft
@@ -2841,10 +2841,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.4.3":
-  version: 1.4.3
-  resolution: "solid-js@npm:1.4.3"
-  checksum: c542491e4d91054f0781eddd6a54254da1272c888c0559dbadac47293b573234906ebdf0e9c1a45e23fa6fed35bc380aaff24663fa1b114760715ff3e99ceaa2
+"solid-js@npm:^1.4.4":
+  version: 1.4.4
+  resolution: "solid-js@npm:1.4.4"
+  checksum: 8daeac24ef87b228e00c1080ba307a969cfd01812ece13f43bfedbcbc7f4ad9c0d7e4bd0cf5e279ef5342d4e0e8a9dcfc4f789ae669ad5e5d759639a5a917275
   languageName: node
   linkType: hard
 
@@ -3083,23 +3083,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.7.3":
-  version: 4.7.3
-  resolution: "typescript@npm:4.7.3"
+"typescript@npm:^4.7.4":
+  version: 4.7.4
+  resolution: "typescript@npm:4.7.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: fd13a1ce53790a36bb8350e1f5e5e384b5f6cb9b0635114a6d01d49cb99916abdcfbc13c7521cdae2f2d3f6d8bc4a8ae7625edf645a04ee940588cd5e7597b2f
+  checksum: 5750181b1cd7e6482c4195825547e70f944114fb47e58e4aa7553e62f11b3f3173766aef9c281783edfd881f7b8299cf35e3ca8caebe73d8464528c907a164df
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.7.3#~builtin<compat/typescript>":
-  version: 4.7.3
-  resolution: "typescript@patch:typescript@npm%3A4.7.3#~builtin<compat/typescript>::version=4.7.3&hash=7ad353"
+"typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
+  version: 4.7.4
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 137d18a77f52254a284960b16ab53d0619f57b69b5d585804b8413f798a1175ce3e774fb95e6a101868577aafe357d8fcfc9171f0dc9fc0c210e9ae59d107cc0
+  checksum: 9096d8f6c16cb80ef3bf96fcbbd055bf1c4a43bd14f3b7be45a9fbe7ada46ec977f604d5feed3263b4f2aa7d4c7477ce5f9cd87de0d6feedec69a983f3a4f93e
   languageName: node
   linkType: hard
 
@@ -3179,9 +3179,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.9.9":
-  version: 2.9.9
-  resolution: "vite@npm:2.9.9"
+"vite@npm:^2.9.12":
+  version: 2.9.12
+  resolution: "vite@npm:2.9.12"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
@@ -3204,7 +3204,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 9292b8ba510a393d0c61c407ebfb4eaa818b2d8d106b3476cdc94cb57a0c59348a535936d698db04b35910a1cfdb16aeaf872f0f995b54cf6d7ed31bc7886deb
+  checksum: 33cf8b6bfbbcae4b7f856d739ae519bed6b1ce23fc652ca98db1d4878bf35424885951c13e0d2536248423a0836d91ef7cae744ff40cbcbd6e7ffe495bd15ea5
   languageName: node
   linkType: hard
 
