@@ -24,7 +24,7 @@
     {
       "matchPackageNames": ["vite"],
       "matchPackagePrefixes": ["@vitejs/"],
-      "groupName": "Vite"
+      "groupName": "Vite and plugins"
     }
   ],
   "rangeStrategy": "bump"
