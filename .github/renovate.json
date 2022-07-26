@@ -23,7 +23,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["vite"],
-      "matchPackagePrefixes": ["@vitejs/"],
+      "matchPackagePrefixes": ["@vitejs/", "vite-plugin-"],
       "groupName": "Vite and plugins"
     }
   ],
