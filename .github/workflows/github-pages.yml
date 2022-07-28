@@ -39,7 +39,7 @@ jobs:
 
       - name: Build
         run: |
-          yarn build --base ${{ github.event.repository.name }}
+          yarn build --base "/${{ github.event.repository.name }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
