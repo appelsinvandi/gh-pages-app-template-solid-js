@@ -843,10 +843,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/vite-react@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@tsconfig/vite-react@npm:1.0.0"
-  checksum: 790ec162e2f9b385660c85d4186515699d1a5406e4b46b913bc6c891061f35c9a515da2c9f0aee6561f2155b618382b820fafed1edad567045e43b635f3cc1ef
+"@tsconfig/vite-react@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@tsconfig/vite-react@npm:1.0.1"
+  checksum: 2d343c07e73b612887d86c0ec6db35fa228ec3e3c237007390de17ba9e69c0e3cd6a1837debd6928988f9abad4cf9da023825ee85c07b51ae2440b95372d945a
   languageName: node
   linkType: hard
 
@@ -2356,7 +2356,7 @@ __metadata:
   resolution: "gh-pages-app-template-solid-js@workspace:."
   dependencies:
     "@ianvs/prettier-plugin-sort-imports": ^3.4.2
-    "@tsconfig/vite-react": ^1.0.0
+    "@tsconfig/vite-react": ^1.0.1
     "@types/node": ^16
     "@typescript-eslint/parser": ^5.33.0
     eslint: ^8.21.0
