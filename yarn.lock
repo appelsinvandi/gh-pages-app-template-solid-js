@@ -1497,6 +1497,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "csstype@npm:3.1.0"
+  checksum: 644e986cefab86525f0b674a06889cfdbb1f117e5b7d1ce0fc55b0423ecc58807a1ea42ecc75c4f18999d14fc42d1d255f84662a45003a52bb5840e977eb2ffd
+  languageName: node
+  linkType: hard
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
@@ -2365,7 +2372,7 @@ __metadata:
     prettier: ^2.7.1
     pretty-quick: ^3.1.3
     scss: ^0.2.4
-    solid-js: ^1.4.8
+    solid-js: ^1.5.0
     typescript: ^4.8.2
     typescript-plugin-css-modules: ^3.4.0
     vite: ^3.0.9
@@ -4118,10 +4125,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.4.8":
-  version: 1.4.8
-  resolution: "solid-js@npm:1.4.8"
-  checksum: deb79463dab3af7889fffaa15f1be92be0c0732d46e74bd2848208d974389e967d69462eb940fbfc0cdbdf7d0a3677a7c9517da5fe6e2a25534e077b555d5704
+"solid-js@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "solid-js@npm:1.5.0"
+  dependencies:
+    csstype: ^3.1.0
+  checksum: dcc14e533dd43b225a5889c52b0a49daa570c9097384de4ef699fad17673cb29f167622edba75eb39cda3014c9bd65a72bd869584ea13a4e349ef70aa255d22a
   languageName: node
   linkType: hard
 
