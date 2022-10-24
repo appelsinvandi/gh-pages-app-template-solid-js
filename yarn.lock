@@ -716,9 +716,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ianvs/prettier-plugin-sort-imports@npm:^3.4.2":
-  version: 3.4.2
-  resolution: "@ianvs/prettier-plugin-sort-imports@npm:3.4.2"
+"@ianvs/prettier-plugin-sort-imports@npm:^3.5.1":
+  version: 3.5.1
+  resolution: "@ianvs/prettier-plugin-sort-imports@npm:3.5.1"
   dependencies:
     "@babel/core": ^7.17.7
     "@babel/generator": ^7.17.7
@@ -726,10 +726,11 @@ __metadata:
     "@babel/traverse": ^7.17.3
     "@babel/types": ^7.17.0
     javascript-natural-sort: 0.7.1
-    lodash: ^4.17.21
+    lodash.clone: ^4.5.0
+    lodash.isequal: ^4.5.0
   peerDependencies:
     prettier: 2.x
-  checksum: 394c907eda01efdd284d606183d6eb51de36ca908f755d61b50e7054db779a271829e0de12cc41014fd97225a9e383255e01ba22b19207ef34f9b27b5f65290e
+  checksum: 850b48fa1e2905a76c9c9b7d61d8dcc5aaefe5faf3079b72ff4c694e889d1f95ec8d1682dab530d3c355804eb23fec29b542124d55b047bb805509905d8fc8a9
   languageName: node
   linkType: hard
 
@@ -2355,7 +2356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gh-pages-app-template-solid-js@workspace:."
   dependencies:
-    "@ianvs/prettier-plugin-sort-imports": ^3.4.2
+    "@ianvs/prettier-plugin-sort-imports": ^3.5.1
     "@tsconfig/vite-react": ^1.0.1
     "@types/node": ^16
     "@typescript-eslint/parser": ^5.40.1
@@ -3103,6 +3104,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.clone@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.clone@npm:4.5.0"
+  checksum: 5839f22acf3a43c026ac4325f7bcd378f34967415cd0b9fd7efa9bbbf38dc665900d36e040944c5afab94a51ff8a24f6cfc3781fe439705cbad5c722e9506b16
+  languageName: node
+  linkType: hard
+
+"lodash.isequal@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.isequal@npm:4.5.0"
+  checksum: da27515dc5230eb1140ba65ff8de3613649620e8656b19a6270afe4866b7bd461d9ba2ac8a48dcc57f7adac4ee80e1de9f965d89d4d81a0ad52bb3eec2609644
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
@@ -3110,7 +3125,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.21, lodash@npm:^4.17.4":
+"lodash@npm:^4.17.4":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
