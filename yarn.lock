@@ -716,9 +716,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ianvs/prettier-plugin-sort-imports@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "@ianvs/prettier-plugin-sort-imports@npm:3.5.1"
+"@ianvs/prettier-plugin-sort-imports@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "@ianvs/prettier-plugin-sort-imports@npm:3.5.2"
   dependencies:
     "@babel/core": ^7.17.7
     "@babel/generator": ^7.17.7
@@ -730,7 +730,7 @@ __metadata:
     lodash.isequal: ^4.5.0
   peerDependencies:
     prettier: 2.x
-  checksum: 850b48fa1e2905a76c9c9b7d61d8dcc5aaefe5faf3079b72ff4c694e889d1f95ec8d1682dab530d3c355804eb23fec29b542124d55b047bb805509905d8fc8a9
+  checksum: 33dc1d630fe83099d1c5fbbfc96103e93ab528c6235f83c614294400bd90db7f7520b3fe2068c21cb58d9dfb42907e67acc70bc1f829c55888955bdeef5025f9
   languageName: node
   linkType: hard
 
@@ -2356,7 +2356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gh-pages-app-template-solid-js@workspace:."
   dependencies:
-    "@ianvs/prettier-plugin-sort-imports": ^3.5.1
+    "@ianvs/prettier-plugin-sort-imports": ^3.5.2
     "@tsconfig/vite-react": ^1.0.1
     "@types/node": ^16
     "@typescript-eslint/parser": ^5.41.0
