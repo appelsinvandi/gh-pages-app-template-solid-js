@@ -2017,9 +2017,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.9.1":
-  version: 0.9.1
-  resolution: "eslint-plugin-solid@npm:0.9.1"
+"eslint-plugin-solid@npm:^0.9.2":
+  version: 0.9.2
+  resolution: "eslint-plugin-solid@npm:0.9.2"
   dependencies:
     "@typescript-eslint/utils": ^5.30.7
     is-html: ^2.0.0
@@ -2029,7 +2029,7 @@ __metadata:
     style-to-object: ^0.3.0
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: eceb68cdac1ae21033f995299bc2fde065951387b8894d62c458166f60386a058d190ef8f1fa830fcac87f70cc25fd1f19f1d1dfc4dc9a165c4422cee70013e5
+  checksum: 169a6af5b25f1239373f5993d430e1f3453882bdd5b95f0abd62a42b58b8d136593afb5c345a4e3cbe0fe16ced0f4cbd5c413067046e944e822de0a8aa4d9aab
   languageName: node
   linkType: hard
 
@@ -2431,7 +2431,7 @@ __metadata:
     "@types/node": ^16
     "@typescript-eslint/parser": ^5.48.1
     eslint: ^8.31.0
-    eslint-plugin-solid: ^0.9.1
+    eslint-plugin-solid: ^0.9.2
     husky: ^8.0.3
     prettier: ^2.8.2
     pretty-quick: ^3.1.3
