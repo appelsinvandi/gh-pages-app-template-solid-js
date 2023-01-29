@@ -2017,9 +2017,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.9.3":
-  version: 0.9.3
-  resolution: "eslint-plugin-solid@npm:0.9.3"
+"eslint-plugin-solid@npm:^0.9.4":
+  version: 0.9.4
+  resolution: "eslint-plugin-solid@npm:0.9.4"
   dependencies:
     "@typescript-eslint/utils": ^5.30.7
     is-html: ^2.0.0
@@ -2029,7 +2029,7 @@ __metadata:
     style-to-object: ^0.3.0
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: b10438edda4c5a8ed2dc019e5df90bc61d6d8219cdde29b671c9cf880892f0c3ed7e278725249b53bf671b39f985b2ec7b055ca40caa1684e975bc94d421ad04
+  checksum: b5ae1f7bee0e79f9178075f15ad4c5b71c484171c0d612001efc2d42ade2393c52300799709ce9e7cc09321868a2f2fd1181437e6ee5538f298f5422b2de942d
   languageName: node
   linkType: hard
 
@@ -2078,9 +2078,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.32.0":
-  version: 8.32.0
-  resolution: "eslint@npm:8.32.0"
+"eslint@npm:^8.33.0":
+  version: 8.33.0
+  resolution: "eslint@npm:8.33.0"
   dependencies:
     "@eslint/eslintrc": ^1.4.1
     "@humanwhocodes/config-array": ^0.11.8
@@ -2123,7 +2123,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 23c8fb3c57291eecd9c1448faf603226a8f885022a2cd96e303459bf72e39b7f54987c6fb948f0f9eecaf7085600e6eb0663482a35ea83da12e9f9141a22b91e
+  checksum: 727e63ab8b7acf281442323c5971f6afdd5b656fbcebc4476cf54e35af51b2f180617433fc5e1952f0449ca3f43a905527f9407ea4b8a7ea7562fc9c3f278d4c
   languageName: node
   linkType: hard
 
@@ -2430,8 +2430,8 @@ __metadata:
     "@tsconfig/vite-react": ^1.0.1
     "@types/node": ^16
     "@typescript-eslint/parser": ^5.49.0
-    eslint: ^8.32.0
-    eslint-plugin-solid: ^0.9.3
+    eslint: ^8.33.0
+    eslint-plugin-solid: ^0.9.4
     husky: ^8.0.3
     prettier: ^2.8.3
     pretty-quick: ^3.1.3
