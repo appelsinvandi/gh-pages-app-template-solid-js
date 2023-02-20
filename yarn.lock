@@ -2117,7 +2117,7 @@ __metadata:
     scss: ^0.2.4
     solid-js: ^1.6.11
     typescript: ^4.9.5
-    typescript-plugin-css-modules: ^4.2.1
+    typescript-plugin-css-modules: ^4.2.2
     vite: ^3.2.5
     vite-plugin-solid: ^2.5.0
   languageName: unknown
@@ -4060,9 +4060,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-plugin-css-modules@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "typescript-plugin-css-modules@npm:4.2.1"
+"typescript-plugin-css-modules@npm:^4.2.2":
+  version: 4.2.2
+  resolution: "typescript-plugin-css-modules@npm:4.2.2"
   dependencies:
     "@types/postcss-modules-local-by-default": ^4.0.0
     "@types/postcss-modules-scope": ^3.0.1
@@ -4081,7 +4081,7 @@ __metadata:
     tsconfig-paths: ^4.1.2
   peerDependencies:
     typescript: ">=3.9.0"
-  checksum: 0aa1d4c85cf9150e3c799760cc8cf76b980ecb9c3e99cb5d685926fdd6d46b560ad4855d5a434f233f6dc0f763cc02fda047f91043d5618152c22e0637820879
+  checksum: 335015de216bdb80af34ec96a898286739b02db2aaad0dbc1b5e13b77fce0f81d7304be19e2a6277b49603e411f15bfba175cff83ba68f005128146ef3fa68bd
   languageName: node
   linkType: hard
 
