@@ -332,6 +332,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.20.7":
+  version: 7.21.2
+  resolution: "@babel/parser@npm:7.21.2"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: e2b89de2c63d4cdd2cafeaea34f389bba729727eec7a8728f736bc472a59396059e3e9fe322c9bed8fd126d201fb609712949dc8783f4cae4806acd9a73da6ff
+  languageName: node
+  linkType: hard
+
 "@babel/parser@npm:^7.18.10, @babel/parser@npm:^7.20.5":
   version: 7.20.5
   resolution: "@babel/parser@npm:7.20.5"
@@ -453,6 +462,17 @@ __metadata:
     debug: ^4.1.0
     globals: ^11.1.0
   checksum: c7fed468614aab1cf762dda5df26e2cfcd2b1b448c9d3321ac44786c4ee773fb0e10357e6593c3c6a648ae2e0be6d90462d855998dc10e3abae84de99291e008
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.0.0, @babel/types@npm:^7.20.7, @babel/types@npm:^7.3.0":
+  version: 7.21.2
+  resolution: "@babel/types@npm:7.21.2"
+  dependencies:
+    "@babel/helper-string-parser": ^7.19.4
+    "@babel/helper-validator-identifier": ^7.19.1
+    to-fast-properties: ^2.0.0
+  checksum: a45a52acde139e575502c6de42c994bdbe262bafcb92ae9381fb54cdf1a3672149086843fda655c7683ce9806e998fd002bbe878fa44984498d0fdc7935ce7ff
   languageName: node
   linkType: hard
 
@@ -695,6 +715,47 @@ __metadata:
   version: 1.0.1
   resolution: "@tsconfig/vite-react@npm:1.0.1"
   checksum: 2d343c07e73b612887d86c0ec6db35fa228ec3e3c237007390de17ba9e69c0e3cd6a1837debd6928988f9abad4cf9da023825ee85c07b51ae2440b95372d945a
+  languageName: node
+  linkType: hard
+
+"@types/babel__core@npm:^7.1.20":
+  version: 7.20.0
+  resolution: "@types/babel__core@npm:7.20.0"
+  dependencies:
+    "@babel/parser": ^7.20.7
+    "@babel/types": ^7.20.7
+    "@types/babel__generator": "*"
+    "@types/babel__template": "*"
+    "@types/babel__traverse": "*"
+  checksum: 49b601a0a7637f1f387442c8156bd086cfd10ff4b82b0e1994e73a6396643b5435366fb33d6b604eade8467cca594ef97adcbc412aede90bb112ebe88d0ad6df
+  languageName: node
+  linkType: hard
+
+"@types/babel__generator@npm:*":
+  version: 7.6.4
+  resolution: "@types/babel__generator@npm:7.6.4"
+  dependencies:
+    "@babel/types": ^7.0.0
+  checksum: 20effbbb5f8a3a0211e95959d06ae70c097fb6191011b73b38fe86deebefad8e09ee014605e0fd3cdaedc73d158be555866810e9166e1f09e4cfd880b874dcb0
+  languageName: node
+  linkType: hard
+
+"@types/babel__template@npm:*":
+  version: 7.4.1
+  resolution: "@types/babel__template@npm:7.4.1"
+  dependencies:
+    "@babel/parser": ^7.1.0
+    "@babel/types": ^7.0.0
+  checksum: 649fe8b42c2876be1fd28c6ed9b276f78152d5904ec290b6c861d9ef324206e0a5c242e8305c421ac52ecf6358fa7e32ab7a692f55370484825c1df29b1596ee
+  languageName: node
+  linkType: hard
+
+"@types/babel__traverse@npm:*":
+  version: 7.18.3
+  resolution: "@types/babel__traverse@npm:7.18.3"
+  dependencies:
+    "@babel/types": ^7.3.0
+  checksum: d20953338b2f012ab7750932ece0a78e7d1645b0a6ff42d49be90f55e9998085da1374a9786a7da252df89555c6586695ba4d1d4b4e88ab2b9f306bcd35e00d3
   languageName: node
   linkType: hard
 
@@ -2127,7 +2188,7 @@ __metadata:
     typescript: ^4.9.5
     typescript-plugin-css-modules: ^4.2.2
     vite: ^3.2.5
-    vite-plugin-solid: ^2.5.0
+    vite-plugin-solid: ^2.6.0
   languageName: unknown
   linkType: soft
 
@@ -4173,12 +4234,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-solid@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "vite-plugin-solid@npm:2.5.0"
+"vite-plugin-solid@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "vite-plugin-solid@npm:2.6.0"
   dependencies:
     "@babel/core": ^7.20.5
     "@babel/preset-typescript": ^7.18.6
+    "@types/babel__core": ^7.1.20
     babel-preset-solid: ^1.6.3
     merge-anything: ^5.1.4
     solid-refresh: ^0.4.1
@@ -4186,7 +4248,7 @@ __metadata:
   peerDependencies:
     solid-js: ^1.3.17 || ^1.4.0 || ^1.5.0 || ^1.6.0
     vite: ^3.0.0 || ^4.0.0
-  checksum: a186b26530fe76c658d24d63d4fa9de5bae95a2dcd0de6cf480d65061a8396b77d172f22e6a45f46fc4672bb201383d055b242ed9670ff7bbaa6a8e3e3283dc7
+  checksum: 5b3109ea145f43e90424fd4aee3a2205b3382d6e61d5def6d27813b088b4790962ef0d75fb486305689c61e571192c4910e5f875aa4416ea386c165fa6b27e40
   languageName: node
   linkType: hard
 
