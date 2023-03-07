@@ -2172,7 +2172,7 @@ __metadata:
     prettier: ^2.8.4
     pretty-quick: ^3.1.3
     scss: ^0.2.4
-    solid-js: ^1.6.11
+    solid-js: ^1.6.12
     typescript: ^4.9.5
     typescript-plugin-css-modules: ^4.2.2
     vite: ^3.2.5
@@ -3855,12 +3855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.6.11":
-  version: 1.6.11
-  resolution: "solid-js@npm:1.6.11"
+"solid-js@npm:^1.6.12":
+  version: 1.6.12
+  resolution: "solid-js@npm:1.6.12"
   dependencies:
     csstype: ^3.1.0
-  checksum: 5db4ee742934e05072804fd9eb0a02b6471a0d36adb5d7bd6eaf178d440f6a39adb5c769b7583eeed02423558221c7d94e21a9bf8b280fa7e0a4a31af5980199
+  checksum: 57646ef409b9323e16640446fd2017464f53adc08496f3a6b359c13a37ee876e4435f294473ddb52213782393d13c22d56e7730c053794db9e4e7777bcb2dd8a
   languageName: node
   linkType: hard
 
