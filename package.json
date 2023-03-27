@@ -13,7 +13,7 @@
     "test:types": "tsc --noEmit"
   },
   "dependencies": {
-    "solid-js": "^1.6.15"
+    "solid-js": "^1.6.16"
   },
   "devDependencies": {
     "@tsconfig/vite-react": "^1.0.1",
