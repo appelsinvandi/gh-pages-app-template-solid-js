@@ -4,8 +4,4 @@ import tsconfigPathsPlugin from 'vite-tsconfig-paths'
 
 export default defineConfig({
   plugins: [solidPlugin(), tsconfigPathsPlugin()],
-  build: {
-    target: 'esnext',
-    polyfillDynamicImport: false,
-  },
 })
