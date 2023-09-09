@@ -29,6 +29,6 @@
     "typescript-plugin-css-modules": "^5.0.1",
     "vite": "^4.4.9",
     "vite-plugin-solid": "^2.7.0",
-    "vite-tsconfig-paths": "^4.2.0"
+    "vite-tsconfig-paths": "^4.2.1"
   }
 }
