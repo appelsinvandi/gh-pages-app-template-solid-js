@@ -866,10 +866,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/recommended@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@tsconfig/recommended@npm:1.0.2"
-  checksum: 8dab26157fc9748ff2d090b95f4dbe2aeb592dbdcf90f373f712da5ac54ff24f66193e7ee68fdc45880e7f767cfeb339ef3e9970ca59608ef93225db047f0d16
+"@tsconfig/recommended@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@tsconfig/recommended@npm:1.0.3"
+  checksum: cf2bf93d419e28b98ac82d9587035daf7dc1e0ef9b8db873a7962967d8744df352ebd2986b046911889e989d4f2caec3bf5826a4c8a4b61572d03329fdc56b34
   languageName: node
   linkType: hard
 
@@ -928,10 +928,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^16.18.51":
-  version: 16.18.51
-  resolution: "@types/node@npm:16.18.51"
-  checksum: 32adea8d5738c8af2dd98ff5fb05295a2b72aa88212f4b1a598c8cfaea1552d6ed556e6ac7f77311a18a145a59f9680bfab8f8b4fd4ec2a843d1a64c7b08e35d
+"@types/node@npm:^16.18.52":
+  version: 16.18.52
+  resolution: "@types/node@npm:16.18.52"
+  checksum: 6b1f27a848a69a70039cb27c2583317b5d051990933955c42bc2a2f299266ffa360f7cc3c7089d04fdf39144c476d475931900f00dabbc4f933eeb2d664f9778
   languageName: node
   linkType: hard
 
@@ -2186,8 +2186,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gh-pages-app-template-solid-js@workspace:."
   dependencies:
-    "@tsconfig/recommended": ^1.0.2
-    "@types/node": ^16.18.51
+    "@tsconfig/recommended": ^1.0.3
+    "@types/node": ^16.18.52
     "@typescript-eslint/parser": ^5.62.0
     eslint: ^8.49.0
     eslint-plugin-solid: ^0.13.0
