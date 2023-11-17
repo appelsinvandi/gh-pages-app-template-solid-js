@@ -5,6 +5,6 @@
   },
   {
     "action": "remove",
-    "files": [".yarn", "yarnrc.yml", "yarn.lock"]
+    "files": [".yarn", ".yarnrc.yml", "yarn.lock"]
   }
 ]
