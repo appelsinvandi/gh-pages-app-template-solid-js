@@ -1,0 +1,10 @@
+[
+  {
+    "action": "remove",
+    "files": [".github/renovate.json"]
+  },
+  {
+    "action": "remove",
+    "files": [".yarn", "yarnrc.yml", "yarn.lock"]
+  }
+]
