@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
-    "@types/node": "^18.19.3",
+    "@types/node": "^20.10.4",
     "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.55.0",
     "eslint-plugin-solid": "^0.13.0",
