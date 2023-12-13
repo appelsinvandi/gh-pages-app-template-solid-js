@@ -32,7 +32,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts'
+          node-version: 'lts/*'
 
       - name: Install deps
         run: yarn install --immutable
