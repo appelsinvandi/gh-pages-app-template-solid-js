@@ -2,6 +2,7 @@
   "name": "gh-pages-app-template-solid-js",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "packageManager": "yarn@4.1.0",
   "scripts": {
     "dev": "vite",
