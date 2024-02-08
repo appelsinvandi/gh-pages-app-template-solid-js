@@ -20,5 +20,8 @@ dist/
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+# os
+.DS_Store
+
 # misc
 .env
