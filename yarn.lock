@@ -2051,7 +2051,7 @@ __metadata:
     typescript: "npm:^5.3.3"
     typescript-plugin-css-modules: "npm:^5.1.0"
     vite: "npm:^5.1.2"
-    vite-plugin-solid: "npm:^2.10.0"
+    vite-plugin-solid: "npm:^2.10.1"
     vite-tsconfig-paths: "npm:^4.3.1"
   languageName: unknown
   linkType: soft
@@ -3407,15 +3407,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-refresh@npm:^0.7.4":
-  version: 0.7.4
-  resolution: "solid-refresh@npm:0.7.4"
+"solid-refresh@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "solid-refresh@npm:0.6.3"
   dependencies:
     "@babel/generator": "npm:^7.23.6"
+    "@babel/helper-module-imports": "npm:^7.22.15"
     "@babel/types": "npm:^7.23.6"
   peerDependencies:
     solid-js: ^1.3
-  checksum: 10c0/e3dede1a25f06e52ce89fea961e419c17bbf48553e0d5df521b0a2eeb4540349fee1ea5c19fb127b368492be95ecf1fd13598288bb866db887bf20d6a05eb8fa
+  checksum: 10c0/04f474704fe60e28835ece852bb6a5ce60106d1d360c2d9ed0f5740751b60672705591b5ae57a35202fd6c13c8cf4eb0e17897e954317e204c2e2bda46b8bb17
   languageName: node
   linkType: hard
 
@@ -3736,15 +3737,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-solid@npm:^2.10.0":
-  version: 2.10.0
-  resolution: "vite-plugin-solid@npm:2.10.0"
+"vite-plugin-solid@npm:^2.10.1":
+  version: 2.10.1
+  resolution: "vite-plugin-solid@npm:2.10.1"
   dependencies:
     "@babel/core": "npm:^7.23.3"
     "@types/babel__core": "npm:^7.20.4"
     babel-preset-solid: "npm:^1.8.4"
     merge-anything: "npm:^5.1.7"
-    solid-refresh: "npm:^0.7.4"
+    solid-refresh: "npm:^0.6.3"
     vitefu: "npm:^0.2.5"
   peerDependencies:
     "@testing-library/jest-dom": ^5.16.6 || ^5.17.0 || ^6.*
@@ -3753,7 +3754,7 @@ __metadata:
   peerDependenciesMeta:
     "@testing-library/jest-dom":
       optional: true
-  checksum: 10c0/311cd3ef916725e5c7a9d62b0cd4c1f4db9c4ceb6706c6523c50039c0fb7d40126567595b6fd0ba0bfcaa724ccd1da196f3d05742747866f3bf15a3ae6a1721a
+  checksum: 10c0/7df3249384afa388324859d54d07f94cd0b7f7555addd8b76f99d57117b633d6be7fe74acfc760fd7da446cbd2d6b90a234e8f47719da9994b70475ce7468d9d
   languageName: node
   linkType: hard
 
