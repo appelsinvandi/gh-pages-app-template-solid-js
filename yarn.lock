@@ -1723,18 +1723,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "eslint-plugin-solid@npm:0.13.1"
+"eslint-plugin-solid@npm:^0.13.2":
+  version: 0.13.2
+  resolution: "eslint-plugin-solid@npm:0.13.2"
   dependencies:
     "@typescript-eslint/utils": "npm:^6.4.0"
+    estraverse: "npm:^5.3.0"
     is-html: "npm:^2.0.0"
     kebab-case: "npm:^1.0.2"
     known-css-properties: "npm:^0.24.0"
     style-to-object: "npm:^0.3.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 10c0/2bbae0580260047461e3859e9a7f90544effa4fe1114de076d183780b3730bd8b07516d2bbb7d9f829cdad9cf86353a3db5dbd7a9e2c36943bd674d89d893f3d
+  checksum: 10c0/57a4b607c8d2077d7670264a7429e92830c0abd5462f315880357e8cdaeb3c752ba10ec6f89faa7803a7b071ac5afac56c7333a4a68419392d36b8d825cf7d96
   languageName: node
   linkType: hard
 
@@ -1857,7 +1858,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estraverse@npm:^5.1.0, estraverse@npm:^5.2.0":
+"estraverse@npm:^5.1.0, estraverse@npm:^5.2.0, estraverse@npm:^5.3.0":
   version: 5.3.0
   resolution: "estraverse@npm:5.3.0"
   checksum: 10c0/1ff9447b96263dec95d6d67431c5e0771eb9776427421260a3e2f0fdd5d6bd4f8e37a7338f5ad2880c9f143450c9b1e4fc2069060724570a49cf9cf0312bd107
@@ -2045,7 +2046,7 @@ __metadata:
     "@types/node": "npm:^20.11.30"
     "@typescript-eslint/parser": "npm:^7.3.1"
     eslint: "npm:^8.57.0"
-    eslint-plugin-solid: "npm:^0.13.1"
+    eslint-plugin-solid: "npm:^0.13.2"
     scss: "npm:^0.2.4"
     solid-js: "npm:^1.8.16"
     typescript: "npm:^5.4.2"
