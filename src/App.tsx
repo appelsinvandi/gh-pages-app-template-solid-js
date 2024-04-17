@@ -1,4 +1,5 @@
 import { Component } from 'solid-js'
+
 import styles from './App.module.scss'
 
 export type AppProps = {}
